@@ -27,6 +27,15 @@ body {
     font-weight: 800;
 }
 
+.message_text {
+    font-size: 3.4rem;        /* BIG message */
+    color: #e91e63;
+    margin-top: 30px;
+    font-weight: 700;
+    line-height: 1.4;
+    max-width: 900px;
+}
+
 .gif_container img {
     width: 300px; 
     max-width: 500px; 
@@ -57,3 +66,19 @@ body {
     background-color: #d81b60;
     transform: scale(1.05);
 }
+
+@media (max-width: 768px) {
+    .header_text {
+        font-size: 1.5rem;
+    }
+
+    .love_text {
+        font-size: 2.6rem !important;
+    }
+
+    .message_text {
+        font-size: 2.2rem;
+        padding: 0 15px;
+    }
+}
+
